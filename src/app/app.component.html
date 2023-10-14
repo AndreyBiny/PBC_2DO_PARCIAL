@@ -1,0 +1,59 @@
+<body>
+
+  <form>
+
+      <div>
+          <br>
+          <label id="fcolor">
+              Gravedad (use punto, no coma):
+          </label>
+        
+          <input type="text" name="gravedad"  [(ngModel)]="calculo.g">
+      </div>
+  
+      <div>
+          <br>
+          <label id="fcolor">
+              Tiempo (minutos):
+          </label>
+         
+          <input type="number" name="tiempo"  [(ngModel)]="calculo.t">
+      </div>
+  
+      <br>
+      <br>
+
+      <div>
+          <button type="submit" (click)="calcular()">
+              Calcular   
+          </button>
+          <br>
+
+      </div>
+
+      <div>
+          <span id="resultlabel">
+              La altura a la que cayó el objeto fue: 
+              <br>
+              <span id="resultlabel2">
+                  {{hredondeado}}
+              </span>
+              <br>
+              <br>
+              La velocidad final con la que el objeto golpeó el suelo es: 
+              <br>
+              <span id="resultlabel2">
+                  {{vredondeado}} 
+              </span>
+          </span>
+      </div>
+      
+
+      <img id="imagen" src="https://cdn.pixabay.com/animation/2023/06/13/15/12/15-12-47-323_512.gif" alt="holy moly">
+  
+
+  </form>
+
+</body>
+
+
