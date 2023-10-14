@@ -37,7 +37,7 @@ body {
   
   /* Estilo para los campos de entrada de texto */
   input {
-    width: 395px;
+    width: 330px;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -46,32 +46,6 @@ body {
     font-family: Verdana, Arial, sans-serif;
     font-size: 16px;
   }
-  
-  
-  /* Estilo para las opciones del select */
-  select option {
-    padding: 5px;
-    font-family: Verdana, Arial, sans-serif;
-    font-size: 16px;
-  }
-  
-  /* Estilo para el hover de las opciones */
-  select option:hover {
-    background-color: #be1717;
-    color: #fff;
-  }
-  
-  /* Estilo para la opción seleccionada */
-  select option:checked {
-    background-color: #007bff;
-    color: #fff;
-  }
-  
-  /* Estilo para el hover del elemento select */
-  select:hover {
-    border-color: #be1717;
-  }
-  
   
   /* Estilo para los botones del formulario */
   button[type="submit"] {
